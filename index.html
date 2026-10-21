@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title> </title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="w"><button class="logo" onclick="go('home')">VOLT</button><button class="burger"
+                onclick="document.getElementById('lk').classList.toggle('open')" aria-label="Menu">Menu</button>
+            <div class="links" id="lk"></div>
+        </div>
+    </nav>
+    <main id="app" class="pg"></main>
+    <div id="modal"></div>
+    <div id="toast" hidden></div>
+    <footer>
+        <div class="w row sp"><span><b class="logo" style="font-size:1.3rem">VOLT</b> Fitness Club · Train Hard. Live
+                Strong.</span><span>214 Foundry Street, Open 5am–11pm daily</span></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
